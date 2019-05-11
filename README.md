@@ -1,9 +1,16 @@
-# VKBOT-CORE
-# Готовое ядро для модульного бота вк основанный на Node.js под управлением модуля VK-IO
-
-* [Установка](https://github.com/fakemancat/vkbot-core/blob/master/docs/install.md)
-* [Создание команд](https://github.com/fakemancat/vkbot-core/blob/master/docs/createCmds.md)
-* [Вызов методов](https://github.com/fakemancat/vkbot-core/blob/master/docs/callMethods.md)
-* [Использование базы данных](https://github.com/fakemancat/vkbot-core/blob/master/docs/usingDB.md)
-
-По всем вопросам писать [мне](https://vk.com/fakeman.cat_fmc) в ЛС.
+<br />
+<p align="center">
+  <h3 align="center">VK Bot Core</h3>
+  <p align="center">
+    Простое ядро для модульного бота ВКонтакте под управлением vk-io
+    <br />
+    <a href="https://github.com/aeonixlegit/vkbot-core"><strong>Start using now »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/aeonixlegit/vkbot-core/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/aeonixlegit/vkbot-core/issues">Request Feature</a>
+    ·
+    <a href="https://github.com/aeonixlegit/vkbot-core/tree/master/docs">Documentation</a>
+  </p>
+</p>

@@ -1,8 +1,8 @@
 module.exports = {
   regexp: /^тест$/,
-  func: function(msg, { botN }) {
-    msg.ok(`Бот успешно работает на ядре Fakeman Cat! Введите ${botN}, помощь для списка команд.`);
+  func: function (msg, { botN }) {
+    msg.ok('Тестовое сообщение.')
   },
   help: 'test',
-  desc: 'проверка'
-};
+  desc: 'проверка',
+}
