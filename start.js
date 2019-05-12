@@ -30,16 +30,16 @@ const cmds = fs
   .map((name) => require(`${__dirname}/cmds/${name}`))
 
 if (!config.botNameString || config.botNameString === null) {
-  console.log('Укажите имя для бота в настройках.'.red.bold)
+  console.log('Укажите имя для бота в настройках.'.red)
   process.exit(false)
 } else if (!config.owner || isNaN(config.owner)) {
-  console.log('Укажите ID владельца бота в настройках.'.red.bold)
+  console.log('Укажите ID владельца бота в настройках.'.red)
   process.exit(false)
 }
 
 let botN = config.botNameString
 
-console.log('> Бот запущен.'.green.bold)
+console.log('> Бот запущен.'.green)
 
 vk.setOptions({
   'token': config.token,
@@ -50,7 +50,7 @@ vk.updates.start().catch(console.error)
 vk.updates.on(['new_message', 'edit_message'], async (context) => {
   if (context.senderId < 1 || !config.botName.test(context.text)) return
 
-  console.log(context.subTypes[0] + ` ${context.senderId} => ${context.text}`.green.bold)
+  console.log(context.subTypes[0] + ` ${context.senderId} => ${context.text}`.green)
 
   context.setActivity()
 

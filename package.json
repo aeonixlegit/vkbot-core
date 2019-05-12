@@ -1,6 +1,6 @@
 {
   "name": "vkbot-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ядро для модульного бота ВКонтакте на основе 'vk-io'.",
   "main": "start.js",
   "directories": {
