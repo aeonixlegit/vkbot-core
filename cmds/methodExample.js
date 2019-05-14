@@ -1,6 +1,6 @@
 module.exports = {
   tag: ['инфо', 'инфа'],
-  func: async (context, { vk }) => {
+  function: async (context, { vk }) => {
     let ID = false
     if (context.hasReplyMessage) {
       ID = context.replyMessage.senderId

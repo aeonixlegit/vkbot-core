@@ -1,6 +1,6 @@
 module.exports = {
   regexp: /^тест$/,
-  func: function (msg) {
+  function: function (msg) {
     msg.ok('Тестовое сообщение.')
   },
   help: 'test',

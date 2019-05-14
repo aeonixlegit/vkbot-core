@@ -2,7 +2,7 @@ const { Keyboard } = require('vk-io')
 
 module.exports = {
   tag: ['клавиатура'],
-  func: function (msg) {
+  function: function (msg) {
     var args = msg.text.split(' ').slice(1).join(' ')
     if (!args || args !== '- кнопка') {
       var kb = Keyboard.keyboard([
